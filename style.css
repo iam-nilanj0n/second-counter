@@ -1,23 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 155, 253);
 }
-.timeSection{
-    margin: 30vh 0 0 42vw;
+
+h1{
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.secondCounter-Box {
+    border: 2px solid rgb(12, 1, 62);
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(131, 223, 223);
+    box-shadow: 4px 4px 0.4rem rgb(62, 0, 55);
+}
+
+.timeSection {
+    /* margin: 30vh 0 0 42vw; */
     display: flex;
     flex-direction: row;
+    border: 2px solid rgb(87, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: white;
 }
-p{
+
+p {
     font-size: 3em;
     margin: 0 0.5vw 0 0.5vw;
 }
+
 /* start button is here */
-.startButton{
+.startButton {
     padding: 10px;
     background-color: blueviolet;
     color: white;
@@ -28,19 +59,19 @@ p{
     font-weight: bolder;
 }
 
-.startButton:hover{
+.startButton:hover {
     background-color: blueviolet;
     cursor: pointer;
 }
 
-.startButton:active{
+.startButton:active {
     background-color: blueviolet;
     transform: translateY(2px);
     box-shadow: 0 2px rgb(32, 32, 32);
 }
 
 /* pause button is here */
-.pauseButton{
+.pauseButton {
     padding: 10px;
     background-color: rgb(174, 138, 5);
     color: white;
@@ -51,12 +82,12 @@ p{
     font-weight: bolder;
 }
 
-.pauseButton:hover{
+.pauseButton:hover {
     background-color: rgb(174, 138, 5);
     cursor: pointer;
 }
 
-.pauseButton:active{
+.pauseButton:active {
     background-color: rgb(174, 138, 5);
     transform: translateY(2px);
     box-shadow: 0 2px rgb(32, 32, 32);
@@ -64,7 +95,7 @@ p{
 
 /* reset button is here */
 
-.resetButton{
+.resetButton {
     padding: 10px;
     background-color: rgb(1, 127, 254);
     color: white;
@@ -75,12 +106,12 @@ p{
     font-weight: bolder;
 }
 
-.resetButton:hover{
+.resetButton:hover {
     background-color: rgb(1, 127, 254);
     cursor: pointer;
 }
 
-.resetButton:active{
+.resetButton:active {
     background-color: rgb(1, 127, 254);
     transform: translateY(2px);
     box-shadow: 0 2px rgb(32, 32, 32);
@@ -88,6 +119,6 @@ p{
 
 /* buttonSection is here */
 
-.buttonSection{
+/* .buttonSection{
     margin: 6vh 0 0 42vw;
-}
+} */

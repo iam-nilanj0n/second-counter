@@ -1,4 +1,5 @@
-const body = document.querySelector('body');
+const box = document.querySelector('.secondCounter-Box');
+
 
 let p = document.createElement('p');
 p.className = 'counter';
@@ -28,8 +29,8 @@ div.appendChild(startButton)
 div.appendChild(pauseButton)
 div.appendChild(resetButton)
 
-body.appendChild(timerSection)
-body.appendChild(div)
+box.appendChild(timerSection)
+box.appendChild(div)
 
 var counter;
 const changeCounter = () => {
